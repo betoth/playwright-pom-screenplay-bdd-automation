@@ -1,0 +1,15 @@
+.env
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+logs
+*.log
+npm-debug.log*
+dist/
+build/
+reports/
+.idea/
+.vscode/
+package-lock.json
