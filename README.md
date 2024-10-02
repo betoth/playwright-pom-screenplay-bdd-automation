@@ -81,13 +81,6 @@ classDiagram
         +IsProductInCart
     }
 
-    class Pages {
-        <<interface>>
-        +LoginPage
-        +InventoryPage
-        +CartPage
-    }
-
     class Steps {
         +loginSteps : String
         +addToCartSteps : String
@@ -124,7 +117,6 @@ classDiagram
     Steps --> Data
     Tests --> Feature
     Tests --> Steps
-    Tasks --> Pages
     Feature --> Scenario
     Page --> Interactions
     Page --> Questions
